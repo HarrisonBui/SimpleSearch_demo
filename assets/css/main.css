@@ -1,5 +1,37 @@
 @import url(font-awesome.min.css);
 
+#appStore {
+	height: 45px;
+	width: auto;
+	transition: .25s;
+}
+
+#react {
+	height: 50px;
+	width: auto;
+	margin-right: 18px;
+}
+
+#github {
+	height: 45px;
+	width: auto;
+	font-size: 45px;
+	color: #000;
+	border-bottom: none;
+}
+
+#github a {
+	border-bottom: none;
+}
+
+button[id='store'] {
+	height: 45px;
+	width: 150px;
+}
+
+
+@import url(font-awesome.min.css);
+
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -3627,7 +3659,7 @@
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		background-color: #FF4500;
 		color: #d0e4f8;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
