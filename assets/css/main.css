@@ -1720,10 +1720,12 @@ button[id='store'] {
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		text-decoration: none;
 		border-bottom: dotted 1px;
+		border-bottom-color: transparent !important;
 	}
 
 		a:hover {
 			border-bottom-color: transparent !important;
+			cursor: pointer;
 		}
 
 	strong, b {
